@@ -1,0 +1,112 @@
+#header {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 700px;
+}
+#box {
+  border-style: solid;
+  border-color: silver;
+  border-width: 0px 1px;
+  margin: 0 auto;
+  width: 700px;
+}
+#insider {
+  margin: 0 auto;
+  width: 650px;
+}
+h1 {
+  margin: 5px 0;
+  text-align: center;
+  line-height: 0.9em;
+  font-size: 18pt;
+  font-weight: bold;
+  color: #cc0000;
+  letter-spacing: -1px;
+}
+h2 {
+  margin: 5px 0;
+  color: #222222;
+  font-family: Georgia;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 14pt;
+  text-align: center;
+  line-height: 0.8em;
+}
+h3 {
+  margin: 5px 0;
+  color: #cc0000;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: left;
+  line-height: 0.9em;
+  letter-spacing: -1px;
+  font-family: georgia;
+}
+h4 {
+  margin: 20px 0;
+  color: #000000;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 1.3em;
+}
+h5 {
+  margin: 20px 0;
+  color: #cc0000;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 1.3em;
+}
+.headline1-medium-georgia-centered {
+  padding: 10px 0;
+  color: black;
+  font-size: 1.42em;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  line-height: 1.15em;
+  text-align: center;
+}
+.headline1-small-tahoma-centered {
+  padding: 10px 0;
+  color: red;
+  font-size: 1.32em;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-family: Georgia;
+  line-height: 1.15em;
+  text-align: center;
+}
+.green_plus_list li {
+  background-image: url(style1.png)/*tpa=http://www.lafamire.ru/education/kfs1/style1.png*/;
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: left top;
+  padding-left: 39px;
+  list-style-type: none;
+  font-family: Georgia;
+  padding-bottom: 15px;
+  color: #1a1a1a;
+  line-height: 20px ! important;
+  font-size: 16px ! important;
+  font-weight: normal;
+  margin-bottom: 0px ! important;
+}
+.to_list li {
+  list-style-type: disc;
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: left top;
+  padding-left: 29px;
+  font-family: Georgia;
+  padding-bottom: 5px;
+  color: #1a1a1a;
+  line-height: 20px ! important;
+  font-size: 16px ! important;
+  font-weight: normal;
+  margin-bottom: 0px ! important;
+}
