@@ -1,0 +1,184 @@
+.audiojs audio {
+  position: absolute;
+  left: -1px;
+}
+.audiojs {
+  font-family: monospace;
+  font-size: 12px;
+
+  overflow: hidden;
+
+  width: 660px !important;
+  height: 36px !important;
+
+  background: transparent;
+}
+.audiojs .play-pause {
+  float: left;
+  overflow: hidden;
+
+  width: 60px;
+  height: 40px;
+  margin: 0;
+  padding: 4px 6px;
+}
+.audiojs p {
+  display: none;
+  float: left;
+
+  width: 25px;
+  height: 40px;
+  margin: 0;
+  padding-right: 5px;
+
+  cursor: pointer;
+}
+.audiojs .play,
+.audiojs .pause {
+  display: block;
+}
+.audiojs .scrubber {
+  position: relative;
+
+  float: left;
+  overflow: hidden;
+
+  width: 423px;
+  height: 14px;
+  margin: 10px;
+
+  background: #ccc;
+}
+.audiojs .progress {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  width: 2px;
+  height: 14px;
+
+  background: #000;
+}
+.audiojs .loaded,
+.audiojs .loaded,
+.audiojs .loaded,
+.audiojs .loaded {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 14px;
+
+  background: url('back.gif');
+}
+.audiojs .loaded {
+  background: url('back_school.gif');
+}
+.audiojs .time {
+  line-height: 36px;
+
+  float: left;
+
+  height: 36px;
+  margin: 0 0 0 6px;
+  padding: 0 6px 0 12px;
+
+  color: #000;
+}
+.audiojs .time em {
+  font-style: normal;
+
+  padding: 0 2px 0 0;
+
+  color: #000;
+}
+.audiojs .time strong {
+  font-weight: normal;
+
+  padding: 0 0 0 2px;
+}
+.audiojs .error-message {
+  line-height: 36px;
+
+  display: none;
+  float: left;
+  overflow: hidden;
+
+  width: 400px;
+  height: 36px;
+  margin: 0 10px;
+
+  white-space: nowrap;
+          text-overflow: ellipsis;
+
+  color: #000;
+
+       -o-text-overflow: ellipsis;
+  -icab-text-overflow: ellipsis;
+  -khtml-text-overflow: ellipsis;
+     -moz-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+}
+.audiojs .error-message a {
+  padding-bottom: 1px;
+
+  white-space: wrap;
+  text-decoration: none;
+
+  color: #eee;
+  border-bottom: 1px solid #999;
+}
+
+.audiojs .play,
+.audiojs .play,
+.audiojs .play {
+  background: url('play.gif') no-repeat;
+}
+.audiojs .play {
+  background: url('play_school.gif') no-repeat;
+}
+
+.audiojs .pause,
+.audiojs .pause,
+.audiojs .pause {
+  background: url('pause.gif') no-repeat;
+}
+.audiojs .pause {
+  background: url('pause_school.gif') no-repeat;
+}
+.playing .play {
+  display: block;
+}
+.playing .loading,
+.playing .error {
+  display: none;
+}
+.playing .pause {
+  display: block;
+}
+.loading .play,
+.loading .pause,
+.loading .error {
+  display: none;
+}
+.loading .loading {
+  display: block;
+}
+.error .time,
+.error .play,
+.error .pause,
+.error .scrubber,
+.error .loading {
+  display: none;
+}
+.error .error {
+  display: block;
+}
+.error .play-pause p {
+  cursor: auto;
+}
+.error .error-message {
+  display: block;
+}
